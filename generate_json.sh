@@ -1,13 +1,13 @@
 #!/bin/bash
-#put script in crDroid source folder, make executable (chmod +x createupdate.sh) and run it (./createupdate.sh)
+#put script in DroidX-UIsource folder, make executable (chmod +x file.sh) and run it (./file.sh)
 
 #modify values below
 #leave blank if not used
-maintainer="Name (nickname)" #ex: Lup Gabriel (gwolfu)
-oem="OEM" #ex: OnePlus
+maintainer="Name (nickname)" 
+oem="OEM" 
 device="device codename" #ex: guacamole
 devicename="name of device" #ex: OnePlus 7 Pro
-zip="ricedroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<ricedroid version>.zip
+zip="ricedroid zip" #ex: crDroidAndroid-<android version>-<date>-<device codename>-v<droidx version>.zip
 buildtype="type" #choose from Testing/Alpha/Beta/Weekly/Monthly
 forum="" #https link (mandatory)
 gapps="" #https link (leave empty if unused)
@@ -17,9 +17,9 @@ bootloader="" #https link (leave empty if unused)
 recovery="" #https link (leave empty if unused)
 paypal="" #https link (leave empty if unused)
 telegram="" #https link (leave empty if unused)
-dt="" #https://github.com/ricedroidandroid/android_device_<oem>_<device_codename>
-commondt="" #https://github.com/ricedroidandroid/android_device_<orm>_<SOC>-common
-kernel="" #https://github.com/ricedroidandroid/android_kernel_<oem>_<SOC>
+dt="" #https://github.com/DroidX-UI-Devices/device_<oem>_<device_codename>
+commondt="" #https://github.com/DroidX-UI-Devices/device_<orm>_<SOC>-common
+kernel="" #https://github.com/DroidX-UI-Devices/kernel_<oem>_<SOC>
 
 
 #don't modify from here
