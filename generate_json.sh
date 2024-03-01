@@ -3,15 +3,15 @@
 
 #modify values below
 #leave blank if not used
-maintainer="Name (nickname)"
+maintainer="PRIYANSHU"
 oem="xiaomi"
-device="lancelot" 
-devicename="Redmi 9" 
-zip="droidx-2.0-20240225-1116-OFFICIAL-lancelot-Gapps.zip"
+device="redwood" 
+devicename="POCO X5 Pro 5G" 
+zip=""
 forum=""
 gapps=""
-recovery=""
-telegram=""
+recovery="https://sourceforge.net/projects/droidxui-releases/files/redwood/14/recovery"
+telegram="thepriyanshujangid"
 
 # Don't modify from here
 script_path="`dirname \"$0\"`"
