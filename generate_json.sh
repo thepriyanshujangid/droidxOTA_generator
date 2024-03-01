@@ -34,7 +34,7 @@ echo '{
         "oem": "'$oem'",
         "device": "'$devicename'",
         "filename": "'$zip_only'",
-        "download": "https://sourceforge.net/projects/droidxui-releases/files/'$device'/'$v_max'.x/'$zip_only'/download",
+        "download": "https://sourceforge.net/projects/droidxui-releases/files/'$device'/'$v_max'14/'$zip_only'/download",
         "timestamp": '$timestamp',
         "sha256": "'$sha256'",
         "size": '$size',
